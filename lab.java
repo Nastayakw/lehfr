@@ -7,13 +7,13 @@ public class TriangleStar {
         System.out.print("Введите высоту треугольника: ");
         int height = scanner.nextInt();
 
-        for (int i = 1; i <= height; i++) { // Внешний цикл для высоты треугольника
-            for (int j = 1; j <= i; j++) { // Внутренний цикл для печати звездочек
-                System.out.print("*"); // Печатаем звездочку
+        for (int i = 1; i <= height; i++) { 
+            for (int j = 1; j <= i; j++) { 
+                System.out.print("*"); 
             }
-            System.out.println(); // Переход на новую строку после каждой строки треугольника
+            System.out.println(); 
         }
 
-        scanner.close(); // Закрываем сканер
+        scanner.close(); 
     }
 }
